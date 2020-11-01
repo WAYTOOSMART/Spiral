@@ -8,7 +8,7 @@ main()
 	int mas_ed[100];
 	srand(time(NULL));
 	scanf("%d%d",&n,&m);
-	//Заполнение массива
+	//Zapolnenie massiva
 	for(int i=0; i<n;i++)
 	{
 		for(int j=0; j<m;j++)
@@ -16,7 +16,6 @@ main()
 			mas[i][j]=rand()%10;
 		}
 	}
-	//
 	int k=0;
 	for(int i=0; i<n;i++)
 	{
@@ -68,7 +67,7 @@ main()
 	}
 	l++;
 	}
-	//Заполнение середины, если нечётные
+	//Zapolnenie serediny
 	if(n>=m and m%2==1 and n%2==1)
 	{
 		for(int i=t;i<=b;i++)
@@ -85,7 +84,7 @@ main()
 			k++;
 		}
 	}
-	//Вывод массивов
+	//Vyvod
 	for(int i=0; i<n;i++)
 	{
 		for(int j=0; j<m;j++)
